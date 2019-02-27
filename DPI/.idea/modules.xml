@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DPI.iml" filepath="$PROJECT_DIR$/DPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application forms/src/abn amro/abn amro.iml" filepath="$PROJECT_DIR$/application forms/src/abn amro/abn amro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application forms/src/loan broker/loan broker.iml" filepath="$PROJECT_DIR$/application forms/src/loan broker/loan broker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application forms/src/loan client/loan client.iml" filepath="$PROJECT_DIR$/application forms/src/loan client/loan client.iml" />
+    </modules>
+  </component>
+</project>

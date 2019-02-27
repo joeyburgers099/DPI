@@ -1,0 +1,173 @@
+STATUS | wrapper  | 2019/02/20 09:00:10 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/02/20 09:00:10 | Launching a JVM...
+INFO   | jvm 1    | 2019/02/20 09:00:11 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/02/20 09:00:11 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/02/20 09:00:11 | 
+INFO   | jvm 1    | 2019/02/20 09:00:11 | Java Runtime: Oracle Corporation 1.8.0_144 C:\Program Files\Java\jre1.8.0_144
+INFO   | jvm 1    | 2019/02/20 09:00:11 |   Heap sizes: current=251392k  free=236972k  max=932352k
+INFO   | jvm 1    | 2019/02/20 09:00:11 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=rcM1eDl3ZHHXaK1B -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9320 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/02/20 09:00:11 | Extensions classpath:
+INFO   | jvm 1    | 2019/02/20 09:00:11 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/02/20 09:00:11 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/02/20 09:00:11 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/02/20 09:00:11 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/02/20 09:00:11 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/02/20 09:00:12 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/02/20 09:00:12 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a295a3d: startup date [Wed Feb 20 09:00:12 CET 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/02/20 09:00:13 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Semester 6\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 10
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | PListStore:[D:\Semester 6\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-8681-1550649614234-0:1) is starting
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Listening for connections at: tcp://LAPTOP-CPIH0AFD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Listening for connections at: amqp://LAPTOP-CPIH0AFD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Listening for connections at: stomp://LAPTOP-CPIH0AFD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Listening for connections at: mqtt://LAPTOP-CPIH0AFD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@2744d410{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Listening for connections at ws://LAPTOP-CPIH0AFD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-8681-1550649614234-0:1) started
+INFO   | jvm 1    | 2019/02/20 09:00:14 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/02/20 09:00:15 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/20 09:00:15 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/02/20 09:00:15 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/02/20 09:00:16 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/02/20 09:00:16 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/20 09:00:16 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2019/02/27 07:31:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/02/27 07:31:55 | Launching a JVM...
+INFO   | jvm 1    | 2019/02/27 07:31:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/02/27 07:31:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/02/27 07:31:56 | 
+INFO   | jvm 1    | 2019/02/27 07:31:56 | Java Runtime: Oracle Corporation 1.8.0_144 C:\Program Files\Java\jre1.8.0_144
+INFO   | jvm 1    | 2019/02/27 07:31:56 |   Heap sizes: current=251392k  free=236973k  max=932352k
+INFO   | jvm 1    | 2019/02/27 07:31:56 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=rNBeWdecQYYRPvDE -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=3656 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/02/27 07:31:56 | Extensions classpath:
+INFO   | jvm 1    | 2019/02/27 07:31:56 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/02/27 07:31:56 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/02/27 07:31:56 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/02/27 07:31:56 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/02/27 07:31:56 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/02/27 07:32:03 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/02/27 07:32:03 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a295a3d: startup date [Wed Feb 27 07:32:03 CET 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Semester 6\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 10
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | PListStore:[D:\Semester 6\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9054-1551249125584-0:1) is starting
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Listening for connections at: tcp://LAPTOP-CPIH0AFD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Listening for connections at: amqp://LAPTOP-CPIH0AFD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Listening for connections at: stomp://LAPTOP-CPIH0AFD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Listening for connections at: mqtt://LAPTOP-CPIH0AFD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/02/27 07:32:05 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/02/27 07:32:06 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6db7695e{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/02/27 07:32:06 |  INFO | Listening for connections at ws://LAPTOP-CPIH0AFD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 07:32:06 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/02/27 07:32:06 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9054-1551249125584-0:1) started
+INFO   | jvm 1    | 2019/02/27 07:32:06 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/02/27 07:32:07 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/27 07:32:08 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/02/27 07:32:08 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/02/27 07:32:08 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/02/27 07:32:08 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/27 07:32:08 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9091 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9163 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9084 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9107 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9108 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9078 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9165 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9076 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:53 |  WARN | Transport Connection to: tcp://127.0.0.1:9109 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:54 |  WARN | Transport Connection to: tcp://127.0.0.1:9164 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:54 |  WARN | Transport Connection to: tcp://127.0.0.1:9098 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:39:54 |  WARN | Transport Connection to: tcp://127.0.0.1:9105 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9267 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9220 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9221 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9262 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9259 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9256 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9260 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9257 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9258 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9255 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9271 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9254 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9268 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9265 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9266 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9228 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9253 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9264 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9261 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9270 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9235 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9274 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9272 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9269 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9249 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:42:36 |  WARN | Transport Connection to: tcp://127.0.0.1:9242 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9350 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9342 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9363 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9355 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9328 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9320 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9321 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9356 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9357 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9360 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9335 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9358 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9361 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9359 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 07:50:10 |  WARN | Transport Connection to: tcp://127.0.0.1:9362 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9502 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9495 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9529 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9479 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9480 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9520 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9519 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9522 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9521 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9526 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9524 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9528 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9527 failed: java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9523 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9518 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9487 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9525 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 08:53:27 |  WARN | Transport Connection to: tcp://127.0.0.1:9509 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2019/02/27 08:59:22 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9054-1551249125584-0:1) is shutting down
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | PListStore:[D:\Semester 6\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9054-1551249125584-0:1) uptime 1 hour 27 minutes
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9054-1551249125584-0:1) is shutdown
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a295a3d: startup date [Wed Feb 27 07:32:03 CET 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2019/02/27 08:59:24 | <-- Wrapper Stopped
