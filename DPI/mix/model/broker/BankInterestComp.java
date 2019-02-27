@@ -9,9 +9,10 @@ public class BankInterestComp implements Comparator<BankInterestReply> {
     @Override
     public int compare(BankInterestReply a, BankInterestReply b) {
         if (a.getInterest() < b.getInterest())
-            return -1; // highest value first
+            return 1; // lowest value first
         if (a.getInterest() == b.getInterest())
             return 0;
-        return 1;
+
+        return -1;
     }
 }

@@ -171,3 +171,50 @@ INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Apache ActiveMQ 5.15.8 (localh
 INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1a295a3d: startup date [Wed Feb 27 07:32:03 CET 2019]; root of context hierarchy
 INFO   | jvm 1    | 2019/02/27 08:59:24 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
 STATUS | wrapper  | 2019/02/27 08:59:24 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/02/27 09:10:07 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/02/27 09:10:07 | Launching a JVM...
+INFO   | jvm 1    | 2019/02/27 09:10:07 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/02/27 09:10:07 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/02/27 09:10:07 | 
+INFO   | jvm 1    | 2019/02/27 09:10:07 | Java Runtime: Oracle Corporation 1.8.0_144 C:\Program Files\Java\jre1.8.0_144
+INFO   | jvm 1    | 2019/02/27 09:10:07 |   Heap sizes: current=251392k  free=236972k  max=932352k
+INFO   | jvm 1    | 2019/02/27 09:10:07 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=APMcyQ2uArrlFWee -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=15064 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/02/27 09:10:07 | Extensions classpath:
+INFO   | jvm 1    | 2019/02/27 09:10:07 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/02/27 09:10:07 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/02/27 09:10:07 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/02/27 09:10:07 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/02/27 09:10:07 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/02/27 09:10:08 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/02/27 09:10:08 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5bd38dbb: startup date [Wed Feb 27 09:10:08 CET 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\Semester 6\DPI practicums\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | PListStore:[D:\Semester 6\DPI practicums\DPI\Apache ActiveMQ\apache-activemq-5.15.8\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9661-1551255009597-0:1) is starting
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Listening for connections at: tcp://LAPTOP-CPIH0AFD:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Listening for connections at: amqp://LAPTOP-CPIH0AFD:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Listening for connections at: stomp://LAPTOP-CPIH0AFD:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Listening for connections at: mqtt://LAPTOP-CPIH0AFD:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/02/27 09:10:09 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@12383310{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  INFO | Listening for connections at ws://LAPTOP-CPIH0AFD:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  INFO | Apache ActiveMQ 5.15.8 (localhost, ID:LAPTOP-CPIH0AFD-9661-1551255009597-0:1) started
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/02/27 09:10:10 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/27 09:10:11 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/02/27 09:10:11 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/02/27 09:10:11 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2019/02/27 09:10:11 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2019/02/27 09:10:11 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2019/02/27 09:10:39 |  WARN | Transport Connection to: tcp://127.0.0.1:9685 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 09:10:39 |  WARN | Transport Connection to: tcp://127.0.0.1:9684 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 09:10:39 |  WARN | Transport Connection to: tcp://127.0.0.1:9713 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 09:10:39 |  WARN | Transport Connection to: tcp://127.0.0.1:9706 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 09:10:40 |  WARN | Transport Connection to: tcp://127.0.0.1:9692 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/02/27 09:10:40 |  WARN | Transport Connection to: tcp://127.0.0.1:9699 failed: java.net.SocketException: Connection reset

@@ -121,12 +121,12 @@ public class LoanBrokerFrame extends JFrame implements Observer {
 			count++;
 			sendergateway.messageSomeOne(newrequest, correlation, "toING");
 		}
-		if((200000 < request.getAmount()) && (request.getAmount() < 300000) && (request.getTime() <= 20)) // to ABN
+		if((200000 < request.getAmount()) && (request.getAmount() < 300000) && (request.getTime() <= 20))
 		{
 			count++;
 			sendergateway.messageSomeOne(newrequest, correlation, "toABN");
 		}
-		if(request.getAmount() <= 250000 && request.getTime() <=15){ // to RABO
+		if(request.getAmount() <= 250000 && request.getTime() <=15){
 			count++;
 			sendergateway.messageSomeOne(newrequest, correlation, "toRABO");
 		}
@@ -189,65 +189,4 @@ public class LoanBrokerFrame extends JFrame implements Observer {
 			}
 		}
 	}
-
-	/**
-     * This class represents one line in the JList in Loan Broker.
-     * This class stores all objects that belong to one LoanRequest:
-     *    - LoanRequest,
-     *    - BankInterestRequest, and
-     *    - BankInterestReply.
-     *  Use objects of this class to add them to the JList.
-     *
-     * @author 884294
-     *
-     */
-	static class JListLine {
-
-        private LoanRequest loanRequest;
-        private BankInterestRequest bankRequest;
-        private BankInterestReply bankReply;
-        private String CorrolationId;
-
-        public JListLine(LoanRequest loanRequest) {
-            this.setLoanRequest(loanRequest);
-        }
-
-        public LoanRequest getLoanRequest() {
-            return loanRequest;
-        }
-
-        public void setLoanRequest(LoanRequest loanRequest) {
-            this.loanRequest = loanRequest;
-        }
-
-        public BankInterestRequest getBankRequest() {
-            return bankRequest;
-        }
-
-        public void setBankRequest(BankInterestRequest bankRequest) {
-            this.bankRequest = bankRequest;
-        }
-
-        public BankInterestReply getBankReply() {
-            return bankReply;
-        }
-
-        public void setBankReply(BankInterestReply bankReply) {
-            this.bankReply = bankReply;
-        }
-
-        public String getCorrolationId() {
-            return CorrolationId;
-        }
-
-        public void setCorrolationId(String corrolationId) {
-            CorrolationId = corrolationId;
-        }
-
-        @Override
-        public String toString() {
-            return loanRequest.toString() + " || " + ((bankReply != null) ? bankReply.toString() : "waiting for reply...");
-        }
-
-    }
 }
